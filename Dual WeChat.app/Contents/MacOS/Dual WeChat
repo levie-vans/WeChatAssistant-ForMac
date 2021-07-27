@@ -1,0 +1,3 @@
+#!/bin/bash
+
+nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /tmp/out.file 2>&1 &
