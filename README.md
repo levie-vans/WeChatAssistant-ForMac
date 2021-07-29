@@ -13,7 +13,7 @@
 
 所以核心代码就两句：
 ```shell
-export DYLD_INSERT_LIBRARIES="${framework_path}"
+export DYLD_INSERT_LIBRARIES="小助手dylib的路径"
 nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /tmp/wechat.txt 2>&1 &
 ```
 为了更方便，将shell封装成App，每次使用只需运行一次这个App，它就会先设置好环境变量并启动官方微信，完美。
