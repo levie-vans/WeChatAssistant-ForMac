@@ -20,6 +20,12 @@ nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /tmp/wechat.txt 2>&1 &
 
 下载地址：[WeChatAssistant.dmg](https://github.com/levie-vans/WeChatAssistant-ForMac/releases/download/1.0.0/WeChatAssistant.dmg)
 
+>**如果使用WeChat Assistant.app启动的微信里没有加载小助手，那么就先把WeChat Assistant.app重签名一次即可,重签它不影响微信的自身签名。**
+
+```shell
+codesign --force --deep --sign - /Applications/WeChat\ Assistant.app/
+```
+
 如果后期微信增加了其他类型检测，再见招拆招吧。总之，广阔天地，大有作为。
 
 # DualWechat-ForMac
