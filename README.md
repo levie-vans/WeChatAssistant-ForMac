@@ -20,7 +20,7 @@ nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /tmp/wechat.txt 2>&1 &
 
 下载地址：[WeChatAssistant.dmg](https://github.com/levie-vans/WeChatAssistant-ForMac/releases/download/1.0.0/WeChatAssistant.dmg)
 
->**如果使用WeChat Assistant.app启动的微信里没有加载小助手，那么就先把WeChat Assistant.app重签名一次即可,重签它不影响微信的自身签名。**
+>**如果使用WeChat Assistant.app启动的微信里没有加载小助手，那么就先把WeChat Assistant.app重签名一次即可，重签它不影响微信的自身签名。**
 
 ```shell
 codesign --force --deep --sign - /Applications/WeChat\ Assistant.app/
@@ -36,5 +36,5 @@ codesign --force --deep --sign - /Applications/WeChat\ Assistant.app/
 nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /tmp/wechat.txt 2>&1 &
 ```
 
-我将这句shell封装成一个App，只要运行一下就可以双开官方微信了。
+下面是封装好的App，只要运行一下就可以双开官方微信了。
 下载地址：[DualWeChat.dmg](https://github.com/levie-vans/WeChatAssistant-ForMac/releases/download/1.0.0/DualWeChat.dmg)
