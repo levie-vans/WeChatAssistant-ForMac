@@ -1,5 +1,9 @@
 # WeChatAssistant-ForMac
 
+首先感谢[MustangYM](https://github.com/MustangYM/)大佬的微信小助手！！！
+
+---
+
 前段时间，[微信小助手](https://github.com/MustangYM/WeChatExtension-ForMac)用户被大规模封号。
 
 我个人认为，究其原因，可能是下面几点：
