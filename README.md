@@ -4,6 +4,10 @@
 
 ---
 
+**DYLD_INSERT_LIBRARIES需要关闭系统的SIP，如果使用此方法，请自行关闭SIP。**
+
+---
+
 前段时间，[微信小助手](https://github.com/MustangYM/WeChatExtension-ForMac)用户被大规模封号。
 
 我个人认为，究其原因，可能是下面几点：
@@ -32,7 +36,7 @@ codesign --force --deep --sign - /Applications/WeChat\ Assistant.app/
 
 如果后期微信增加了其他类型检测，再见招拆招吧。总之，广阔天地，大有作为。
 
-**根据反馈，这种方法可能需要关闭系统的SIP才行。**
+
 
 # DualWechat-ForMac
 
