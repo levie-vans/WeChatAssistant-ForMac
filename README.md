@@ -32,6 +32,8 @@ codesign --force --deep --sign - /Applications/WeChat\ Assistant.app/
 
 如果后期微信增加了其他类型检测，再见招拆招吧。总之，广阔天地，大有作为。
 
+**根据反馈，这种方法可能需要关闭系统的SIP才行。**
+
 # DualWechat-ForMac
 
 如果不需要小助手的其他功能，日常也只是需要双开功能，那么直接使用官方微信无疑是更加安全的。这次就更简单了，一句话的代码：
