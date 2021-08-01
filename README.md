@@ -4,7 +4,7 @@
 
 ---
 
-**DYLD_INSERT_LIBRARIES需要关闭系统的SIP，如果使用此方法，请自行关闭SIP。**
+**DYLD_INSERT_LIBRARIES需要关闭系统的SIP，如果使用此方法，请自行[关闭SIP](https://www.macwk.com/article/sipmac)。**
 
 ---
 
