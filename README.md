@@ -1,3 +1,18 @@
+# 小助手Alfred扩展
+
+在原有小助手的Alfred扩展的基础上修改了下，新增了：
+1. 加载小助手并启动的功能
+2. 使用官方微信双开功能
+
+**核心代码也是下面那两行，仍是DYLD_INSERT_LIBRARIES加载，所以依然需要自行[关闭SIP](https://www.macwk.com/article/sipmac)。**
+
+![XEvGWzqsxod2fli](https://i.loli.net/2021/08/08/XEvGWzqsxod2fli.png)
+![7fiqGkBleuW3EbD](https://i.loli.net/2021/08/08/7fiqGkBleuW3EbD.png)
+
+下载地址：[WeChat.Plugin.alfredworkflow](https://github.com/levie-vans/WeChatAssistant-ForMac/releases/)
+
+---
+
 # WeChatAssistant-ForMac
 
 首先感谢[MustangYM](https://github.com/MustangYM/)大佬的微信小助手！！！
