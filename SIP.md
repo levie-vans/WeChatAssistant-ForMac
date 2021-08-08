@@ -53,6 +53,7 @@
 ![6x7hMG9ACUPiLEk](https://i.loli.net/2021/08/08/6x7hMG9ACUPiLEk.jpg)
 
 3.  在终端上输入命令 csrutil disable然后回车。
+
 ![pfxBYjUMhreFXDP](https://i.loli.net/2021/08/08/pfxBYjUMhreFXDP.jpg)
 
 4.  点击左上角苹果图标，再点击重新启动
