@@ -4,7 +4,7 @@
 1. 加载小助手并启动的功能
 2. 使用官方微信双开功能
 
-**核心代码也是下面那两行，仍是DYLD_INSERT_LIBRARIES加载，所以依然需要自行[关闭SIP](https://www.macwk.com/article/sipmac)。**
+**核心代码也是下面那两行，仍是DYLD_INSERT_LIBRARIES加载，所以依然需要自行[关闭SIP](SIP.md)。**
 
 ![XEvGWzqsxod2fli](https://i.loli.net/2021/08/08/XEvGWzqsxod2fli.png)
 ![7fiqGkBleuW3EbD](https://i.loli.net/2021/08/08/7fiqGkBleuW3EbD.png)
@@ -19,7 +19,7 @@
 
 ---
 
-**DYLD_INSERT_LIBRARIES需要关闭系统的SIP，如果使用此方法，请自行[关闭SIP](https://www.macwk.com/article/sipmac)。**
+**DYLD_INSERT_LIBRARIES需要关闭系统的SIP，如果使用此方法，请自行[关闭SIP](SIP.md)。**
 
 ---
 
