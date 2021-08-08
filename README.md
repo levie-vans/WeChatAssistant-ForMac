@@ -1,8 +1,16 @@
-# 小助手Alfred扩展
+# 另外一种让小助手运行的方法
 
-在原有小助手的Alfred扩展的基础上修改了下，新增了：
+首先感谢[MustangYM](https://github.com/MustangYM/)大佬的微信小助手！！！
+
+---
+
+## 小助手Alfred扩展
+
+在小助手原有的Alfred扩展的基础上修改了下，新增了：
 1. 加载小助手并启动的功能
 2. 使用官方微信双开功能
+
+如果日常使用Alfred，这种方式还是很方便的，不用Alfred的同学继续使用独立App运行吧。
 
 **核心代码也是下面那两行，仍是DYLD_INSERT_LIBRARIES加载，所以依然需要自行[关闭SIP](SIP.md)。**
 
@@ -13,15 +21,9 @@
 
 ---
 
-# WeChatAssistant-ForMac
-
-首先感谢[MustangYM](https://github.com/MustangYM/)大佬的微信小助手！！！
-
----
+## WeChatAssistant-ForMac
 
 **DYLD_INSERT_LIBRARIES需要关闭系统的SIP，如果使用此方法，请自行[关闭SIP](SIP.md)。**
-
----
 
 前段时间，[微信小助手](https://github.com/MustangYM/WeChatExtension-ForMac)用户被大规模封号。
 
@@ -53,7 +55,7 @@ codesign --force --deep --sign - /Applications/WeChat\ Assistant.app/
 
 
 
-# DualWechat-ForMac
+## DualWechat-ForMac
 
 如果不需要小助手的其他功能，日常也只是需要双开功能，那么直接使用官方微信无疑是更加安全的。这次就更简单了，一句话的代码：
 
