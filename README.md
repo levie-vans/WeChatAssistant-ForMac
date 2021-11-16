@@ -1,6 +1,7 @@
 # 另外一种让小助手运行的方法
 
 首先感谢[MustangYM](https://github.com/MustangYM/)大佬的微信小助手！！！
+另外，因为小助手插件只支持微信3.1x，3.2会一直显示消息在收取中，所以不能使用的请降级微信到3.1x，[下载地址](https://macwk.lanzoui.com/iV6yMrikpbg)
 
 ---
 
