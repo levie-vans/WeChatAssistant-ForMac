@@ -4,6 +4,17 @@
 另外，因为小助手插件只支持微信3.1x，3.2会一直显示消息在收取中，所以不能使用的请降级微信到3.1x，[下载地址](https://macwk.lanzoui.com/iV6yMrikpbg)
 
 ---
+安装了插件之后聊天记录丢失的问题，可以通过迁移聊天记录的方式来解决：
+
+执行以下命令即可迁移聊天记录：
+
+cp -R ~/Library/Containers/com.tencent.xinWeChat/Data/Library/Application\ Support/com.tencent.xinWeChat ~/Library/Application\ Support/com.tencent.xinWeChat
+
+同样的，假如是卸载操作，需要把聊天记录迁移回原版微信中，执行以下命令：
+
+cp -R ~/Library/Application\ Support/com.tencent.xinWeChat ~/Library/Containers/com.tencent.xinWeChat/Data/Library/Application\ Support/com.tencen
+
+---
 
 ## 小助手Alfred扩展
 
